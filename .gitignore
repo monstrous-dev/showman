@@ -1,0 +1,7 @@
+*.log
+.DS_Store
+node_modules/
+package-lock.json
+
+# dev-local working artifacts — not part of the package
+references/

@@ -1,0 +1,29 @@
+{
+  "name": "showman",
+  "version": "0.1.0",
+  "description": "Showman — a pi extension that renders HTML, JSON, and Markdown documents in the user's browser, with a session document history.",
+  "keywords": ["pi-package", "pi", "pi-extension", "showman", "browser", "preview", "markdown", "json"],
+  "license": "MIT",
+  "author": {
+    "name": "monstrous-dev",
+    "url": "https://github.com/monstrous-dev"
+  },
+  "homepage": "https://github.com/monstrous-dev/showman",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monstrous-dev/showman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monstrous-dev/showman/issues"
+  },
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"],
+    "skills": ["./skills"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "typebox": "*"
+  }
+}
